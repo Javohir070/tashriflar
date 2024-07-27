@@ -18,7 +18,7 @@
             </div>
         </a>
         <div class="dropdown-menu dropdown-menu-end">
-            <a href="app-profile.html" class="dropdown-item ai-icon ">
+            <a href="#" class="dropdown-item ai-icon ">
                 <svg xmlns="http://www.w3.org/2000/svg" class="text-primary" width="18" height="18" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
@@ -26,7 +26,7 @@
                 </svg>
                 <span class="ms-2">Profile </span>
             </a>
-            <a href="email-inbox.html" class="dropdown-item ai-icon">
+            <a href="#" class="dropdown-item ai-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="18" height="18" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -34,7 +34,7 @@
                 </svg>
                 <span class="ms-2">Inbox </span>
             </a>
-            <a href="page-register.html" class="dropdown-item ai-icon">
+            <a href="#" class="dropdown-item ai-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" class="text-danger" width="18" height="18" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
@@ -47,19 +47,25 @@
     </div>
     <ul class="metismenu" id="menu">
         <li>
-            <a href="{{ route("admin.index") }}">
+            <a href="#">
                 <i class="flaticon-025-dashboard"></i>
                 <span class="nav-text">Dashboard</span>
             </a>
         </li>
 
-        <li>
+        <!-- <li>
             <a class="has-arrow" href="{{ route("menus.index") }}" aria-expanded="false">
                 <i class="flaticon-043-menu"></i>
                 <span class="nav-text">Menu</span>
             </a>
-        </li>
+        </li> -->
         <li>
+            <a class="has-arrow" href="{{ route("tashrif.index") }}" aria-expanded="false">
+                <i class="flaticon-043-menu"></i>
+                <span class="nav-text">Tashriflar</span>
+            </a>
+        </li>
+        <!-- <li>
             <a class="has-arrow " href="javascript:void()" aria-expanded="false">
                 <i class="flaticon-022-copy"></i>
                 <span class="nav-text">Sahifalar</span>
@@ -69,6 +75,6 @@
                 <li><a href="{{ route('pages.create') }}">Yangi sahifa</a></li>
                 <li><a href="{{ route('abouts.index') }}">About</a></li>
             </ul>
-        </li>
+        </li> -->
     </ul>
 </div>

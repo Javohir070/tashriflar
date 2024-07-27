@@ -13,6 +13,7 @@ use App\Http\Controllers\MenuController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\SiteController;
 use App\Http\Controllers\SubMenuController;
+use App\Http\Controllers\TashrifController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,6 +40,7 @@ Route::resource('/abouts', AboutController::class);
 Route::resource('/pages', PageController::class);
 Route::resource('/menus', MenuController::class);
 Route::resource('/submenu', SubMenuController::class);
+Route::resource('/tashrif', TashrifController::class);
 
 
 Route::middleware('auth')->group(function () {

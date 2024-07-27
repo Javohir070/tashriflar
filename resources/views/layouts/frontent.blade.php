@@ -14,7 +14,20 @@ h1 {
     text-align: center;
     color: #333;
 }
-
+.alert-success {
+        color: #0f5132;
+        background-color: #d1e7dd;
+        border-color: #badbcc;
+        text-align: center;
+}
+.alert {
+        margin-top: 20px;
+        position: relative;
+        padding: 1rem 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+}
 form {
     width: 400px;
     margin: 0 auto;
