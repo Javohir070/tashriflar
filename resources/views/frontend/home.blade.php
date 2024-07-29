@@ -44,7 +44,7 @@
     <input type="file" id="documents" name="sabab" accept=".pdf" required>
 
     <label for="visitDate">Tashrif sanasi va vaqtini kiriting:</label>
-    <input type="datetime" id="visitDate" name="sana" required>
+    <input type="datetime-local"  name="sana" required>
 
 
     <label for="photo">Personal rasm: </label><span style="font-size:14px; padding:0px 0px 10px 0px;">Rasm 3x4 o’lchamda, .jpg formatda va orqa foni oq rangda bo’lishi shart</span>
