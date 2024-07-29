@@ -1,7 +1,20 @@
 @extends('layouts.frontent')
 
 @section("content")
-<h1>Заявка на визит</h1>
+<h1>FaceID tizimiga ma’lumotlar kiritsh</h1>
+<div style="width: 100%;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;">
+    <p style="
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    font-size:18px;
+    line-height:1.5;
+">Assalomu alaykum hurmatlik mehmon. Innovatsion rivojlanish agentligi binosiga kirish va chiqishni nazorat qilish uchun FaceID tizimi ishga tushirilgan. Sizning Agentlik binosiga muammosiz kirib chiqishingiz uchun bir qancha ma’lumotlarni kiritishingiz zarur. Kiritgan ma’lumotlaringiz faqat FaceID tizimi doirasida foydalaniladi.</p>
+
+</div>
 @if (session('status'))
 <div class="contaner">
     <div class="alert alert-success">{{ session('status') }}</div>
@@ -9,30 +22,31 @@
 @endif
 <form action="{{ route("tashrif.store") }}" method="post" enctype="multipart/form-data">
    @csrf
-    <label for="fullName">ФИО:</label>
+    <label for="fullName">F.I.Sh:</label>
     <input type="text" id="fullName" name="fish" required>
 
-    <label for="organization">Организация:</label>
+    <label for="organization">Tashkilot:</label>
     <input type="text" id="organization" name="tashkilot" required>
 
-    <label for="gender">Пол:</label>
+    <label for="gender">Jinsi:</label>
     <select id="gender" name="jinsi">
-        <option value="male">Мужской</option>
-        <option value="female">Женский</option>
+        <option value="Erkak">Erkak</option>
+        <option value="Ayol">Ayol</option>
     </select>
 
-    <label for="purpose">Цель визита:</label>
+    <label for="purpose">Tashrif maqsadi:</label>
     <input type="text" id="purpose" name="maqsad" required>
 
-    <label for="visitDate">Дата визита:</label>
-    <input type="date" id="visitDate" name="sana" required>
-
-    <label for="reason">Основание для визита:</label>
+    <label for="reason">Tashrif uchun asos:</label>
     <input type="file" id="documents" name="sabab" accept=".pdf" required>
 
-    <label for="photo">Загрузите фото (JPG):</label>
+    <label for="visitDate">Tashrif sanasi va vaqtini kiriting:</label>
+    <input type="datetime" id="visitDate" name="sana" required>
+
+
+    <label for="photo">Personal rasm: </label><span style="font-size:14px; padding:0px 0px 10px 0px;">Rasm 3x4 o’lchamda, .jpg formatda va orqa foni oq rangda bo’lishi shart</span>
     <input type="file" id="photo" name="image" accept=".jpg" required>
 
-    <button type="submit">Отправить</button>
+    <button type="submit">Yuborish </button>
 </form>
 @endsection

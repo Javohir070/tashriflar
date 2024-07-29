@@ -5,14 +5,16 @@
         /* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #021c52;
     margin: 0;
     padding: 0;
 }
 
 h1 {
+    margin-top: 30px;
     text-align: center;
-    color: #333;
+    color: #fff;
+    margin-bottom: 0px;
 }
 .alert-success {
         color: #0f5132;
@@ -29,7 +31,7 @@ h1 {
         border-radius: .25rem;
 }
 form {
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
