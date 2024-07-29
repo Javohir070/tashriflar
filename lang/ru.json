@@ -1,0 +1,15 @@
+{
+    "F.I.Sh" : "ФИО",
+    "Tashkilot" : "Организация",
+    "Jinsi" : "Пол",
+    "Erkak":"Мужчина",
+    "Ayol":"Женщина",
+    "Tashrif maqsadi" : "Цель визита",
+    "Tashrif uchun asos" : "Основание для визита",
+    "Tashrif sanasi va vaqtini kiriting" : "Укажите дату и время визитаt",
+    "Personal rasm" : "Загрузите фото",
+    "Rasm 3x4 o’lchamda, .jpg formatda va orqa foni oq rangda bo’lishi shart":"Фото должна быть на белом фон, размер 3х4 и файл в формате .jpg",
+    "Yuborish" : "Kнопка ",
+    "FaceID tizimiga ma’lumotlar kiritsh" : "Внесение данных в систему FaceID",
+    "Assalomu alaykum hurmatlik mehmon. Innovatsion rivojlanish agentligi binosiga kirish va chiqishni nazorat qilish uchun FaceID tizimi ishga tushirilgan. Sizning Agentlik binosiga muammosiz kirib chiqishingiz uchun bir qancha ma’lumotlarni kiritishingiz zarur. Kiritgan ma’lumotlaringiz faqat FaceID tizimi doirasida foydalaniladi." : "Здравствуйте, дорогой гость. Для контроля входа и выхода в здание Агентства инновационного развития запущена система FaceID. Во избежание некоторых проблем при входе и выходе в здание Агентства, с вашей стороны необходимо ввести некоторые персональные данные. Введенные вами данные будут использованы только в рамках системы FaceID."
+}

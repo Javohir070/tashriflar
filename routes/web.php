@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LanguageController;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\RoleController;
@@ -31,6 +32,8 @@ Route::get('/', [SiteController::class, 'index'])->name('frontend.home');
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::get("language/{locale}",[LanguageController::class,"change_locale"])->name("locale.change");
 
 //admin panil
 
