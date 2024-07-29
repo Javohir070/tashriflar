@@ -10,7 +10,7 @@
     color: #fff;
     text-align: center;
     width: 70%;
-    font-size:18px;
+    font-size:16px;
     line-height:1.5;
 ">Assalomu alaykum hurmatlik mehmon. Innovatsion rivojlanish agentligi binosiga kirish va chiqishni nazorat qilish uchun FaceID tizimi ishga tushirilgan. Sizning Agentlik binosiga muammosiz kirib chiqishingiz uchun bir qancha ma’lumotlarni kiritishingiz zarur. Kiritgan ma’lumotlaringiz faqat FaceID tizimi doirasida foydalaniladi.</p>
 
@@ -27,6 +27,9 @@
 
     <label for="organization">Tashkilot:</label>
     <input type="text" id="organization" name="tashkilot" required>
+
+    <label for="organization">Email:</label>
+    <input type="email" id="organization"  required>
 
     <label for="gender">Jinsi:</label>
     <select id="gender" name="jinsi">
