@@ -8,8 +8,8 @@
     "Tashrif uchun asos" : "Reason for the visit",
     "Tashrif sanasi va vaqtini kiriting" : "Specify the date and time of the visit",
     "Personal rasm" : "Upload a photo",
-    "Rasm 3x4 o’lchamda, .jpg formatda va orqa foni oq rangda bo’lishi shart":"Фото должна быть на белом фон, размер 3х4 и файл в формате .jpg",
-    "Yuborish" : "Отправить",
+    "Rasm 3x4 o’lchamda, .jpg formatda va orqa foni oq rangda bo’lishi shart":"The photo must be on a white background, size 3x4 and file in .jpg format",
+    "Yuborish" : "Send",
     "FaceID tizimiga ma’lumotlar kiritsh" : "Data for the FaceID system",
     "Assalomu alaykum hurmatlik mehmon. Innovatsion rivojlanish agentligi binosiga kirish va chiqishni nazorat qilish uchun FaceID tizimi ishga tushirilgan. Sizning Agentlik binosiga muammosiz kirib chiqishingiz uchun bir qancha ma’lumotlarni kiritishingiz zarur. Kiritgan ma’lumotlaringiz faqat FaceID tizimi doirasida foydalaniladi." : "Hello, dear guest. The FaceID system has been launched to control entry and exit to the building of the Agency for Innovative Development. In order to avoid some problems when entering and exiting the Agency building, you must enter some personal data. The data you enter will be used only within the FaceID system."
 }
