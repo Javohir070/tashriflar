@@ -67,7 +67,7 @@
     <input type="text" id="organization" name="tashkilot" required>
 
     <label for="organization">Email:</label>
-    <input type="email" id="organization"  required>
+    <input type="email" name="email" id="organization"  required>
 
     <label for="gender">{{ __('Jinsi') }}:</label>
     <select id="gender" name="jinsi">
@@ -79,7 +79,7 @@
     <input type="text" id="purpose" name="maqsad" required>
 
     <label for="reason">{{ __('Tashrif uchun asos') }}:</label>
-    <input type="file" id="documents" name="sabab" accept=".pdf" required>
+    <input type="file" id="documents" name="sabab" accept=".pdf" >
 
     <label for="visitDate">{{ __('Tashrif sanasi va vaqtini kiriting') }}:</label>
     <input type="datetime-local"  name="sana" required>

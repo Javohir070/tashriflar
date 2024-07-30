@@ -43,10 +43,11 @@ class TashrifController extends Controller
             "fish" => $request->fish,
             "tashkilot" => $request->tashkilot,
             "jinsi" => $request->jinsi,
+            "email" => $request->email,
             "maqsad" => $request->maqsad,
             "sana" => $request->sana,
             "sabab" => $sabab_file ?? null,
-            "image" => $image_file ?? null,
+            "image" => $image_file,
         ]);
 
         return redirect()->back()->with('status',"Sizning Ma'lumotingiz ko'rib chiqish uchun yuborildi. ");

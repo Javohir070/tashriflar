@@ -14,12 +14,13 @@ return new class extends Migration
         Schema::create('tashrifs', function (Blueprint $table) {
             $table->id();
             $table->string('fish');
-            $table->string('tashkilot');
+            $table->string('tashkilot',600);
             $table->string('jinsi');
-            $table->string('maqsad');
+            $table->string('email');
+            $table->string('maqsad',1024);
             $table->string('sana');
-            $table->string('sabab');
-            $table->string('image');
+            $table->string('sabab',1024)->nullable();
+            $table->string('image',1024);
             $table->timestamps();
         });
     }

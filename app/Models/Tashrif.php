@@ -9,5 +9,5 @@ class Tashrif extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['fish', 'tashkilot', 'jinsi', 'maqsad', 'sana', 'sabab', 'image'];
+    protected $fillable = ['fish', 'tashkilot', 'jinsi', 'maqsad', 'sana', 'sabab', 'image', 'email'];
 }
