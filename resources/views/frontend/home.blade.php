@@ -95,9 +95,7 @@
 
     <label for="reason">{{ __('Tashrif uchun asos') }}:</label>
     <input type="file" id="documents" name="sabab" accept=".pdf" >
-    @error('sabab')
-        <div class="alert alert-danger">{{ $message }}</div>
-    @enderror
+    
 
     <label for="visitDate">{{ __('Tashrif sanasi va vaqtini kiriting') }}:</label>
     <input type="datetime-local"  name="sana" required>

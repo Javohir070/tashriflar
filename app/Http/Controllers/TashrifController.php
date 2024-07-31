@@ -37,7 +37,7 @@ class TashrifController extends Controller
             "email" => 'required|max:255',
             "maqsad" => 'required|max:1024',
             "sana" => 'required|max:255', 
-            "image" => 'mimes:jpg,bmp,png|max:12*1024',
+            "image" => 'mimes:jpg,bmp,png',
         ]);
 
         if($request->hasFile('image')){
