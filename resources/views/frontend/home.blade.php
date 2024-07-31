@@ -62,31 +62,55 @@
    </ul>
     <label for="fullName">{{ __('F.I.Sh') }}:</label>
     <input type="text" id="fullName" name="fish" required>
+    @error('fish')
+        <div class="alert alert-danger">{{ $message }}</div>
+    @enderror
 
     <label for="organization">{{ __('Tashkilot') }}:</label>
     <input type="text" id="organization" name="tashkilot" required>
+    @error('tashkilot')
+        <div class="alert alert-danger">{{ $message }}</div>
+    @enderror
 
     <label for="organization">Email:</label>
     <input type="email" name="email" id="organization"  required>
+    @error('email')
+        <div class="alert alert-danger">{{ $message }}</div>
+    @enderror
 
     <label for="gender">{{ __('Jinsi') }}:</label>
     <select id="gender" name="jinsi">
         <option value="Erkak">{{ __("Erkak")}}</option>
         <option value="Ayol">{{ __("Ayol")}}</option>
     </select>
+    @error('jinsi')
+        <div class="alert alert-danger">{{ $message }}</div>
+    @enderror
 
     <label for="purpose">{{ __('Tashrif maqsadi') }}:</label>
     <input type="text" id="purpose" name="maqsad" required>
+    @error('maqsad')
+        <div class="alert alert-danger">{{ $message }}</div>
+    @enderror
 
     <label for="reason">{{ __('Tashrif uchun asos') }}:</label>
     <input type="file" id="documents" name="sabab" accept=".pdf" >
+    @error('sabab')
+        <div class="alert alert-danger">{{ $message }}</div>
+    @enderror
 
     <label for="visitDate">{{ __('Tashrif sanasi va vaqtini kiriting') }}:</label>
     <input type="datetime-local"  name="sana" required>
+    @error('sana')
+        <div class="alert alert-danger">{{ $message }}</div>
+    @enderror
 
 
     <label for="photo">{{__('Personal rasm')}}: </label><span style="font-size:14px; padding:0px 0px 10px 0px;">{{__('Rasm 3x4 o’lchamda, .jpg formatda va orqa foni oq rangda bo’lishi shart')}}</span>
     <input type="file" id="photo" name="image" accept=".jpg" required>
+    @error('image')
+        <div class="alert alert-danger">{{ $message }}</div>
+    @enderror
 
     <button type="submit">{{ __('Yuborish') }} </button>
 </form>

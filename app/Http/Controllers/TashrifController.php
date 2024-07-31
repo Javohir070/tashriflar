@@ -30,6 +30,15 @@ class TashrifController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+            "fish" => 'required|max:255',
+            "tashkilot" => 'required|max:600',
+            "jinsi" => 'required|max:255',
+            "email" => 'required|max:255',
+            "maqsad" => 'required|max:1024',
+            "sana" => 'required|max:255', 
+            "image" => 'mimes:jpg,bmp,png|max:12*1024',
+        ]);
 
         if($request->hasFile('image')){
             $name = $request->file('image')->getClientOriginalName();
