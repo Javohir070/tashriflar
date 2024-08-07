@@ -17,7 +17,7 @@
 </div>
 @if (session('status'))
 <div class="contaner">
-    <div class="alert alert-success">{{ __("Sizning Ma'lumotingiz ko'rib chiqish uchun qabul qilindi. Natijasi bo‘yicha ko‘rsatilgan elektron pochta manziliga ma'lumot yuboriladi.") }}</div>
+    <div class="alert alert-success">Sizning Ma'lumotingiz ko'rib chiqish uchun qabul qilindi. Natijasi bo‘yicha ko‘rsatilgan elektron pochta manziliga ma'lumot yuboriladi.</div>
 </div>
 @endif
 <form action="{{ route("tashrif.store") }}" method="post" enctype="multipart/form-data">
