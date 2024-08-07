@@ -59,7 +59,7 @@ class TashrifController extends Controller
             "image" => $image_file,
         ]);
 
-        return redirect()->back()->with('status');
+        return redirect()->back()->with('status',"Sizning Ma'lumotingiz ko'rib chiqish uchun qabul qilindi. Natijasi bo‘yicha ko‘rsatilgan elektron pochta manziliga ma'lumot yuboriladi.");
     }
 
     /**
