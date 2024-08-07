@@ -17,7 +17,7 @@
 </div>
 @if (session('status'))
 <div class="contaner">
-    <div class="alert alert-success">{{ $message }}</div>
+    <div class="alert alert-success">{{ session('status') }}</div>
 </div>
 @endif
 <form action="{{ route("tashrif.store") }}" method="post" enctype="multipart/form-data">
